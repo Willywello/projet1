@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jeanne Scooter</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+ul {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 9.7%;
+	position: fixed;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: indianred;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+	
+	.dropbtn {
+		border-radius: 15px;
+  background-color: mediumvioletred;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	border-radius: 15px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+	border-radius: 15px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: palevioletred;
+}
+	
+	.arrow span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.arrow span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.arrow:hover span {
+  padding-right: 25px;
+}
+
+.arrow:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<body>
+	
+	
+	
+<table width="100%">
+  <tbody>
+    <tr>
+      <td width="10%" align="left" valign="top" bgcolor="#F1F1F1"><ul>
+  <li><a  href="../index.html">Accueil</a></li>
+  <li><a href="biographie.html">Biographie</a></li>
+  <li><a href="influences.html">Influences</a></li>
+  <li><a href="travaux.html">Travaux</a></li>
+  <li><a class="active" href="expositions.html">Expositions</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="sources.html">Sources</a></li>
+</ul></td>
+      <td valign="top" height="1000" bgcolor="#F9D0D1">
+		  
+        <table width="100%" align="center" cellspacing="12">
+            <tbody>
+              <tr>
+                <td colspan="2" bgcolor="#858585">
+                <h1>Expositions</h1></td>
+              </tr>
+              <tr>
+                <td width="50%">&nbsp;
+                  <p>&nbsp;</p>
+                <p>On retrouve le travail de&nbsp;Jeanne Scooter à plusieurs endroits au Canada. Cette année, ses photos seront exposées à Montréal de janvier à mars, à Québec de mai à juillet et à Vancouver de octobre à décembre. Le sujet de ces expositions est le monde qui nous entoure et la subtilité de la nature. Ces oeuvres sont garanties de vous surprendre par leur beauté.&nbsp; &nbsp; &nbsp; &nbsp;</p></td>
+                <td align="center" valign="top"><div class="dropdown">
+  <button class="dropbtn">Montréal</button>
+  <div class="dropdown-content">
+  <a href="expositions2.html" class="arrow"><span>Québec</span></a>
+  <a href="expositions3.html" class="arrow"><span>Vancouver</span></a>
+  </div>
+</div>
+                  <p>&nbsp;</p>
+                <p><div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=325%20Rue%20de%20la%20Commune%20E,%20Montr%C3%A9al,%20QC%20H2Y%201J3&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><a href="https://www.embedgooglemap.net">embedded google maps in website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div></div>&nbsp;</p></td>
+              </tr>
+            </tbody>
+        </table>
+        <p>&nbsp;</p>
+      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="right" valign="top" bgcolor="#f1f1f1">Créateur du site: William Bradette-Chénier</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
